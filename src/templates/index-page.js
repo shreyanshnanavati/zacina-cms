@@ -93,7 +93,7 @@ export const IndexPageTemplate = ({
               </div>
               <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                    Latest storiess
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
@@ -125,6 +125,7 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
+
 
   return (
     <Layout>
