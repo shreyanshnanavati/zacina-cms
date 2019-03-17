@@ -21,7 +21,7 @@ collections:
 
   - name: "products"
     label: "Products"
-    folder: "src/products/blog"
+    folder: "src/pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
